@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "priority": 2,
+        "action": {
+            "type": "redirect",
+            "redirect": "https://www.youtube.com/watch?v=dtQd7j_WMz0"
+        },
+        "condition": {
+            "urlFilter": ".*youtube\\.com.*ASMR.*",
+            "resourceTypes": [ "main_frame" ]
+        }
+    }
+]
